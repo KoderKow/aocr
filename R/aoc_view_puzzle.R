@@ -8,13 +8,13 @@
 #' @export
 #'
 #' @examples
-#' \donrun{
+#' \dontrun{
 #' aoc_view_puzzle(2022, 1)
 #' }
 aoc_view_puzzle <- function(
-    year,
-    day
-    ) {
+  year,
+  day
+) {
   utils::browseURL(glue("https://adventofcode.com/{year}/day/{day}"))
 
   return(invisible())

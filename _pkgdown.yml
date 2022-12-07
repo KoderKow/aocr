@@ -1,0 +1,14 @@
+url: https://koderkow.github.io/aocr/
+
+template:
+  package: preferably
+  params:
+    toggle: manual
+    twitter:
+      creator: "@koderkow"
+      site: https://koderkow.rbind.io/
+      card: summary_large_image
+
+      authors:
+  Kyle Harris:
+    href: https://koderkow.rbind.io/

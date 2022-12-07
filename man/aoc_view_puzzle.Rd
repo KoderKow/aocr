@@ -18,7 +18,7 @@ Nothing.
 Opens a web browser to the page of the wanted \strong{year} and \strong{day}
 }
 \examples{
-\donrun{
+\dontrun{
 aoc_view_puzzle(2022, 1)
 }
 }

@@ -2,7 +2,7 @@
 #'
 #' Get the data from the wanted year and day for Advent of Code. Responses will be cached to reduce the number of requests sent to the Advent of Code website.
 #'
-#' @family HTTP Requests
+#' @family HTTP Request functions
 #'
 #' @param day Numeric. Day of the challenge.
 #' @param year Numeric. Year of the challenge.

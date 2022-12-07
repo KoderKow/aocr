@@ -4,12 +4,21 @@
 \name{aocr-package}
 \alias{aocr}
 \alias{aocr-package}
-\title{aocr: What the Package Does (One Line, Title Case)}
+\title{aocr: An R client for accessing Advent of Code’s data}
 \description{
-What the package does (one paragraph).
+This package will only help obtain data, it will not assist in posting solutions via HTTP request. All requests are cached to reduce the number of interactions with Advent of Code’s website.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/KoderKow/aocr}
+  \item \url{https://koderkow.github.io/aocr/}
+  \item Report bugs at \url{https://github.com/KoderKow/aocr/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Kyle Harris \email{koderkow@gmail.com}
 
 }
 \keyword{internal}

@@ -6,12 +6,16 @@
 <!-- <img src="man/figures/logo.png" width="160px" align="right" /> -->
 
 > 💻 An R client for accessing [Advent of
-> Code](https://adventofcode.com/)’s data This package will only help
-> obtain data, it will not assist in posting solutions via HTTP request
-> All requests are cached to reduce the number of interactions with
-> Advent of Code’s website
+> Code](https://adventofcode.com/)’s data
+
+-   This package will only help obtain data, it will not assist in
+    posting solutions via HTTP request
+-   All requests are cached to reduce the number of interactions with
+    Advent of Code’s website
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/KoderKow/aocr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/KoderKow/aocr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 ## Installation

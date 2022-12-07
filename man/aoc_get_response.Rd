@@ -23,7 +23,7 @@ resp <- aoc_get_response(2022, 1)
 }
 }
 \seealso{
-Other HTTP Requests: 
+Other HTTP Request functions: 
 \code{\link{aoc_get_data_as_tibble}()}
 }
-\concept{HTTP Requests}
+\concept{HTTP Request functions}

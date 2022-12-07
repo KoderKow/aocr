@@ -3,13 +3,13 @@
 #' @description Obtains the data from the wanted **year** and **day** and transform the data into a tibble.
 #'
 #' Reading the response into a tibble makes the following assumptions using [readr::read_delim()];
-#' - delim = "\n"
+#' - delim = "\\n"
 #' - skip_empty_rows = FALSE
 #' - show_col_types = FALSE
 #'
 #' Responses will be cached to reduce the number of requests sent to the Advent of Code website.
 #'
-#' @family HTTP Requests
+#' @family HTTP Request functions
 #'
 #' @inheritParams aoc_get_response
 #'
@@ -35,7 +35,7 @@ aoc_get_data_as_tibble <- function(
 
   d_init <- readr::read_delim(
     file = resp_string,
-    delim = "\n",
+    delim = "\\n",
     col_names = "col_1",
     skip_empty_rows = FALSE,
     show_col_types = FALSE
